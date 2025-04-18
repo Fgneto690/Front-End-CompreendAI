@@ -5,11 +5,11 @@ import { simplificarTexto, uploadPdf, uploadImage } from "../apiService";
 export const useCompreendAI = () => {
   const [textoOriginal, setTextoOriginal] = useState("");
   const [textoSimplificado, setTextoSimplificado] = useState("");
-  const [isLoading, setIsLoading] = useState(false); // Estado para controlar o loading
+  const [isLoading, setIsLoading] = useState(false); 
 
   const simplificar = async () => {
     if (!textoOriginal.trim()) return;
-    setIsLoading(true); // Ativa o loading
+    setIsLoading(true); 
     try {
       const texto = await simplificarTexto(textoOriginal);
       setTextoSimplificado(texto || "Erro ao simplificar o texto.");
@@ -17,7 +17,7 @@ export const useCompreendAI = () => {
       console.error("Erro ao simplificar o texto:", error);
       setTextoSimplificado("Erro ao simplificar o texto.");
     } finally {
-      setIsLoading(false); // Desativa o loading
+      setIsLoading(false);
     }
   };
 

@@ -10,6 +10,7 @@ Vite: Ferramenta para desenvolvimento rápido e eficiente.
 SpeechSynthesis API: Para leitura em voz alta do texto simplificado.
 
 📦 Estrutura do Projeto
+
 ```bash 
     Front-End/
     ├── public/
@@ -35,6 +36,7 @@ SpeechSynthesis API: Para leitura em voz alta do texto simplificado.
     ├── postcss.config.js        # Configuração do PostCSS
     └── tailwind.config.js       # Configuração do Tailwind CSS
 ```
+
 🛠️ Funcionalidades
 
 Upload de Arquivos:

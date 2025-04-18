@@ -36,7 +36,7 @@ export const uploadPdf = async (file) => {
     }
 
     const data = await response.json();
-    return data.texto; // Certifique-se de que o back-end retorna o texto no campo "texto"
+    return data.texto;
   } catch (error) {
     console.error("Erro ao fazer upload do PDF:", error);
     return null;
