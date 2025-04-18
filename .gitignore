@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependências do Node.js
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+
+# Arquivos de configuração locais
+*.local
+
+# Arquivos de ambiente
+.env
+
+# Configurações do editor
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cache do Tailwind CSS
+.tailwind-cache/
+
+# Arquivos temporários
+*.tmp
+*.temp
