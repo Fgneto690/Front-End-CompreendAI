@@ -59,8 +59,7 @@ Navegador Moderno: Compatível com ES6+ e suporte à API SpeechSynthesis.
 🛠️ Instalação
 Clone o repositório:
 ```bash 
-git clone https://github.com/seu-usuario/compreendai-frontend.git
-cd compreendai/Front-End/CompreendAi Front-end
+git clone https://github.com/Fgneto690/Front-End-CompreendAI
 ```
 
 Instale as dependências:
